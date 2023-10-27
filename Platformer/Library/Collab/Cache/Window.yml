@@ -1,0 +1,654 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Animations.meta
+    - Assets/Environments.meta
+    - Assets/Environments/Environment 0.prefab
+    - Assets/Environments/Environment 0.prefab.meta
+    - Assets/Environments/Environment 1.prefab
+    - Assets/Environments/Environment 1.prefab.meta
+    - Assets/Environments/Environment 2.prefab
+    - Assets/Environments/Environment 2.prefab.meta
+    - Assets/Environments/Environment 3.prefab
+    - Assets/Environments/Environment 3.prefab.meta
+    - Assets/Materials.meta
+    - Assets/Materials/Environment.mat
+    - Assets/Materials/Environment.mat.meta
+    - Assets/Ninja Files.meta
+    - Assets/Ninja Files/Demo.unity
+    - Assets/Ninja Files/Demo.unity.meta
+    - Assets/Ninja Files/FireBall AI.ai
+    - Assets/Ninja Files/FireBall AI.ai.meta
+    - Assets/Ninja Files/FireBall EPS.eps
+    - Assets/Ninja Files/FireBall EPS.eps.meta
+    - Assets/Ninja Files/Item AI.ai
+    - Assets/Ninja Files/Item AI.ai.meta
+    - Assets/Ninja Files/Item EPS.eps
+    - Assets/Ninja Files/Item EPS.eps.meta
+    - Assets/Ninja Files/Ninja AI.ai
+    - Assets/Ninja Files/Ninja AI.ai.meta
+    - Assets/Ninja Files/Ninja EPS.eps
+    - Assets/Ninja Files/Ninja EPS.eps.meta
+    - Assets/Ninja Files/Ninja PNG.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/fireball 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Items & FireBall/item5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouch 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouch 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouch 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouch 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouch 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouch 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouchdash
+      1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouchdash
+      1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouchdash
+      2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_crouchdash
+      2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_idle 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_jump 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_jump 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_jump 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_jump 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_jump 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_jump 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 01.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 01.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 02.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 02.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 03.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 03.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 04.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 04.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 05.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 05.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 06.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 06.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 07.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 07.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 08.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 08.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 09.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 09.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 10.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 10.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 11.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/No Sword/SNinja_nosword_run 11.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_Atk 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouch 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouch 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouch 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouch 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouch 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouch 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouchdash 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouchdash 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouchdash 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_crouchdash 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt2 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt2 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt2 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt2 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt2 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_hurt2 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_idle 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jump 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jump 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jump 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jump 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jump 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jump 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpatk 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 7.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_jumpskill 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 7.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_redsword 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 01.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 01.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 02.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 02.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 03.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 03.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 04.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 04.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 05.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 05.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 06.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 06.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 07.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 07.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 08.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 08.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 09.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 09.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 10.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 10.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 11.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_run 11.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 7.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_skill 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 4.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 5.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 6.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 7.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 8.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_strike 8.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 1.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 2.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 3.png
+    - Assets/Ninja Files/Ninja PNG/1024 pixel/Sword/SNinja_swordidle 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 1.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 2.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 3.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 4.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/fireball 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item1.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item2.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item3.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item4.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item5.png
+    - Assets/Ninja Files/Ninja PNG/Items & FireBall/item5.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouch 1.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouch 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouch 2.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouch 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouch 3.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouch 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouchdash 1.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouchdash 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouchdash 2.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_crouchdash 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 1.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 2.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 3.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 4.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 5.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 6.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_idle 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_jump 1.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_jump 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_jump 2.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_jump 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_jump 3.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_jump 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 01.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 01.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 02.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 02.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 03.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 03.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 04.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 04.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 05.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 05.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 06.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 06.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 07.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 07.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 08.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 08.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 09.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 09.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 10.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 10.png.meta
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 11.png
+    - Assets/Ninja Files/Ninja PNG/No Sword/SNinja_nosword_run 11.png.meta
+    - Assets/Ninja Files/Ninja PNG/Parts.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/4.png
+    - Assets/Ninja Files/Ninja PNG/Parts/4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/Feet.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/Feet.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/Head.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/Head.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/Knee.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/Knee.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/Left hand.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/Left hand.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/Right Hand.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/Right Hand.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/Shoulder2.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/Shoulder2.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/leg.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/leg.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/lower torso.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/lower torso.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/shoulder.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/shoulder.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/sword.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/sword.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Parts/upper torso.PNG
+    - Assets/Ninja Files/Ninja PNG/Parts/upper torso.PNG.meta
+    - Assets/Ninja Files/Ninja PNG/Sword.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_Atk 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouch 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_crouchdash 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_hurt2 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_idle 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jump 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpatk 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 7.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_jumpskill 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 7.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_redsword 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 01.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 01.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 02.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 02.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 03.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 03.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 04.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 04.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 05.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 05.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 06.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 06.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 07.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 07.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 08.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 08.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 09.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 09.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 10.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 10.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 11.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_run 11.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 7.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_skill 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 3.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 4.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 4.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 5.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 5.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 6.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 6.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 7.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 7.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 8.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_strike 8.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 1.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 1.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 2.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 2.png.meta
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 3.png
+    - Assets/Ninja Files/Ninja PNG/Sword/SNinja_swordidle 3.png.meta
+    - Assets/Ninja Files/Read Me.txt
+    - Assets/Ninja Files/Read Me.txt.meta
+    - Assets/Ninja Files/Run Tutorial.png
+    - Assets/Ninja Files/Run Tutorial.png.meta
+    - Assets/Player.mat
+    - Assets/Player.mat.meta
+    - Assets/Player.prefab
+    - Assets/Player.prefab.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Canvas.prefab
+    - Assets/Prefabs/Canvas.prefab.meta
+    - Assets/Prefabs/Door.prefab
+    - Assets/Prefabs/Door.prefab.meta
+    - Assets/Prefabs/GameManager.prefab
+    - Assets/Prefabs/GameManager.prefab.meta
+    - Assets/Prefabs/Player.prefab
+    - Assets/Prefabs/Player.prefab.meta
+    - Assets/Prefabs/Scene Manager Outside.prefab
+    - Assets/Prefabs/Scene Manager Outside.prefab.meta
+    - Assets/Prefabs/Scene Manager Stage 1 1.prefab
+    - Assets/Prefabs/Scene Manager Stage 1 1.prefab.meta
+    - Assets/Prefabs/Spawn Point.prefab
+    - Assets/Prefabs/Spawn Point.prefab.meta
+    - Assets/Prefabs/Universal Variables.prefab
+    - Assets/Prefabs/Universal Variables.prefab.meta
+    - Assets/Prefabs/door 1.prefab
+    - Assets/Prefabs/door 1.prefab.meta
+    - Assets/Prefabs/door-Closed 1.prefab
+    - Assets/Prefabs/door-Closed 1.prefab.meta
+    - Assets/Resources.meta
+    - Assets/Resources/BillingMode.json
+    - Assets/Resources/BillingMode.json.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Outside 1.unity
+    - Assets/Scenes/Outside 1.unity.meta
+    - Assets/Scenes/Stage 1.unity
+    - Assets/Scenes/Stage 1.unity.meta
+    - Assets/Scenes/Stage 2.unity
+    - Assets/Scenes/Stage 2.unity.meta
+    - Assets/Scenes/Stage 2Settings.lighting
+    - Assets/Scenes/Stage 2Settings.lighting.meta
+    - Assets/Scenes/Stage 3.unity
+    - Assets/Scenes/Stage 3.unity.meta
+    - Assets/Scenes/Stage 4.unity
+    - Assets/Scenes/Stage 4.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/BodyState.cs
+    - Assets/Scripts/BodyState.cs.meta
+    - Assets/Scripts/CanvasSurvive.cs
+    - Assets/Scripts/CanvasSurvive.cs.meta
+    - Assets/Scripts/Dashing.cs
+    - Assets/Scripts/Dashing.cs.meta
+    - Assets/Scripts/Door.cs
+    - Assets/Scripts/Door.cs.meta
+    - Assets/Scripts/PlayerMove.cs
+    - Assets/Scripts/PlayerMove.cs.meta
+    - Assets/Scripts/Scene Managers.meta
+    - Assets/Scripts/Scene Managers/SM1to2.cs
+    - Assets/Scripts/Scene Managers/SM1to2.cs.meta
+    - Assets/Scripts/Scene Managers/SM1toOut.cs
+    - Assets/Scripts/Scene Managers/SM1toOut.cs.meta
+    - Assets/Scripts/Scene Managers/SM2to1.cs
+    - Assets/Scripts/Scene Managers/SM2to1.cs.meta
+    - Assets/Scripts/Scene Managers/SM2to3.cs
+    - Assets/Scripts/Scene Managers/SM2to3.cs.meta
+    - Assets/Scripts/Scene Managers/SM2to3Lift.cs
+    - Assets/Scripts/Scene Managers/SM2to3Lift.cs.meta
+    - Assets/Scripts/Scene Managers/SM3to2.cs
+    - Assets/Scripts/Scene Managers/SM3to2.cs.meta
+    - Assets/Scripts/Scene Managers/SM3to2Lift.cs
+    - Assets/Scripts/Scene Managers/SM3to2Lift.cs.meta
+    - Assets/Scripts/Scene Managers/SM3to4.cs
+    - Assets/Scripts/Scene Managers/SM3to4.cs.meta
+    - Assets/Scripts/Scene Managers/SM3to41.cs
+    - Assets/Scripts/Scene Managers/SM3to41.cs.meta
+    - Assets/Scripts/Scene Managers/SM4to3.cs
+    - Assets/Scripts/Scene Managers/SM4to3.cs.meta
+    - Assets/Scripts/Scene Managers/SM4to31.cs
+    - Assets/Scripts/Scene Managers/SM4to31.cs.meta
+    - Assets/Scripts/Scene Managers/SMOutto1.cs
+    - Assets/Scripts/Scene Managers/SMOutto1.cs.meta
+    - Assets/Scripts/SceneChanger.cs
+    - Assets/Scripts/SceneChanger.cs.meta
+    - Assets/Scripts/ShowText.cs
+    - Assets/Scripts/ShowText.cs.meta
+    - Assets/Scripts/Timer.cs
+    - Assets/Scripts/Timer.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Background 3.png
+    - Assets/Sprites/Background 3.png.meta
+    - Assets/Sprites/Background 4.png
+    - Assets/Sprites/Background 4.png.meta
+    - Assets/Sprites/Background 5.png
+    - Assets/Sprites/Background 5.png.meta
+    - Assets/Sprites/Background 6.png
+    - Assets/Sprites/Background 6.png.meta
+    - Assets/Sprites/Outside 1.png
+    - Assets/Sprites/Outside 1.png.meta
+    - Assets/Sprites/background 2.png
+    - Assets/Sprites/background 2.png.meta
+    - Assets/Sprites/background.png
+    - Assets/Sprites/background.png.meta
+    - Assets/Sprites/door 1.png
+    - Assets/Sprites/door 1.png.meta
+    - Assets/Sprites/door-Closed .png
+    - Assets/Sprites/door-Closed .png.meta
+    - Assets/Sprites/door-Closed 1.png
+    - Assets/Sprites/door-Closed 1.png.meta
+    - Assets/Sprites/door.png
+    - Assets/Sprites/door.png.meta
+    - Assets/Textures.meta
+    - Assets/Textures/jbCNvTM4gwr2qV8X8fW3ZB.png
+    - Assets/Textures/jbCNvTM4gwr2qV8X8fW3ZB.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
