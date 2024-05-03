@@ -129,12 +129,6 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 561261770474359192}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &528115823 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 2838507401687604680, guid: 78ee44bcf236972469a39c3e9f3fa94c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2838507400478099836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &716433842 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2838507401687604684, guid: 78ee44bcf236972469a39c3e9f3fa94c,
@@ -535,16 +529,6 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2838507401687604681, guid: 78ee44bcf236972469a39c3e9f3fa94c,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2838507401687604681, guid: 78ee44bcf236972469a39c3e9f3fa94c,
-        type: 3}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 528115823}
     - target: {fileID: 2838507401687604682, guid: 78ee44bcf236972469a39c3e9f3fa94c,
         type: 3}
       propertyPath: m_RootOrder

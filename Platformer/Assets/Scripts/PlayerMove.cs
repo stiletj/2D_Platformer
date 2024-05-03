@@ -23,6 +23,8 @@ public class PlayerMove : MonoBehaviour
     private GameObject spawnPoint;
     private Dashing dashing;
 
+    bool accelFrame = true;
+
     
     // Start is called before the first frame update
     void Start()
@@ -52,21 +54,14 @@ public class PlayerMove : MonoBehaviour
 
         if (Input.GetButton("Horizontal"))
         {
-            int theMoveSpeed;
-            if (speed >= (-1 * maxSpeed) && speed <= maxSpeed)
+            if (accelFrame && Mathf.Abs(speed) <= maxSpeed)
             {
-                theMoveSpeed = moveSpeed;
+                controller.AddForce(new Vector2(forwardBack * moveSpeed, 0f));
             }
-            else
-            {
-                theMoveSpeed = 0;
-            }
-
-            Vector2 go = new Vector2(forwardBack * theMoveSpeed, 0f);
-
-            controller.AddForce(go);
 
             movement = forwardBack * moveSpeed;
+
+            accelFrame = !accelFrame;
         }
 
         if (Input.GetButtonDown("Vertical") && isGrounded == true)

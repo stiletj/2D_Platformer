@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312abd70397271f4cb4e4660e1df06ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 1
   jumpSpeed: 300
   dashSpeed: 10
   maxSpeed: 10
@@ -623,7 +623,7 @@ MonoBehaviour:
   jumping: 0
   speed: 0
   time: 0.2
-  controller: {fileID: 0}
+  controller: {fileID: 2838507401687604680}
 --- !u!50 &2838507401687604680
 Rigidbody2D:
   serializedVersion: 4
