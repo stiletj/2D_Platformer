@@ -357,7 +357,6 @@
 "Assets/Scripts/GateKey.cs"
 "Assets/Scripts/GateUnlock.cs"
 "Assets/Scripts/Key.cs"
-"Assets/Scripts/Key1.cs"
 "Assets/Scripts/PlayerMove.cs"
 "Assets/Scripts/Scene Managers/SM1to2.cs"
 "Assets/Scripts/Scene Managers/SM1toOut.cs"
@@ -381,7 +380,6 @@
 "Assets/Scripts/ShowText.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/Scripts/Unlock.cs"
-"Assets/Scripts/Unlock1.cs"
 -langversion:9.0
 
 /deterministic

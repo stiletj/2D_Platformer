@@ -6,7 +6,6 @@ public class PlayerMove : MonoBehaviour
 {
     public int moveSpeed = 5;
     public int jumpSpeed = 100;
-    public int dashSpeed = 50;
     public int maxSpeed = 10;
     public GameObject player;
     public bool isGrounded = false;
@@ -40,7 +39,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (dashing.doingDash)
+        if (dashing.doingDash)
         {
             return;
         }

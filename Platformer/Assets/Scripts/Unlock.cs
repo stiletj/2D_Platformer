@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Unlock : MonoBehaviour
 {
-    public static int doorStatus = 0;
+    public int doorStatus = 0;
+
+    public GameObject keyOBJ;
 
     GameObject player;
-    PlayerMove playerMove;    
+    PlayerMove playerMove;
+    Key keyScript;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Player");
         playerMove = player.GetComponent<PlayerMove>();
+        keyScript = keyOBJ.GetComponent<Key>();
     }
 
     // Update is called once per frame
@@ -30,6 +34,7 @@ public class Unlock : MonoBehaviour
             else
             {
                 body.gameObject.SetActive(false);
+                Debug.Log("off");
             }
             i++;
         }
@@ -37,7 +42,7 @@ public class Unlock : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (Key.hasKey == true)
+        if (keyScript.hasKey == true)
         {
             doorStatus = 1;
         }
@@ -58,9 +63,9 @@ public class Unlock : MonoBehaviour
 
         playerMove.isGrounded = true;
 
-        Key.hasKey = false;
+        keyScript.hasKey = false;
 
-        Key.keySprite.enabled = true;
+        keyScript.keySprite.enabled = true;
 
         StartCoroutine(CalmUnlock());
     }

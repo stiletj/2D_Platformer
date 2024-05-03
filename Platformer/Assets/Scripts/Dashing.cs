@@ -6,18 +6,24 @@ public class Dashing : MonoBehaviour
 {
     public DashState dashState;
     public float dashTimer;
-    public float maxDash = 10f;
+    public float maxDash = 2f;
     public GameObject player;
-    public float dashSpeed = 2;
+    public float dashSpeed = 2f;
+    public float maxDashSpeed = 5f;
     //public float standingDashSpeed = 5f;
     public bool doingDash = false;
 
     private Rigidbody2D controller;
+    private PlayerMove moveScript;
+    private float direction = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<Rigidbody2D>();
+        moveScript = GetComponent<PlayerMove>();
+
+        maxDashSpeed += moveScript.maxSpeed;
     }
 
     // Update is called once per frame
@@ -26,34 +32,32 @@ public class Dashing : MonoBehaviour
         switch (dashState)
         {
             case DashState.Ready:
-                var isDashKeyDown = Input.GetKeyDown(KeyCode.Space);
-                if (isDashKeyDown)
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    /*if (controller.velocity.x != 0)
+                    if (Input.GetButton("Horizontal"))
                     {
-                        controller.velocity = new Vector2(controller.velocity.x * dashSpeed, 0f);
-                        dashState = DashState.Dashing;
+                        direction = Input.GetAxisRaw("Horizontal");
                     }
-                    else
-                    {
-                        controller.velocity = new Vector2(controller.velocity.x + standingDashSpeed, 0f);
-                        dashState = DashState.Dashing;
-                    }*/
-                    if (controller.velocity.x >= 0)
-                    {
-                        controller.velocity = new Vector2(controller.velocity.x + dashSpeed, 0f);
-                        dashState = DashState.Dashing;
-                    }
-                    else if (controller.velocity.x < 0)
-                    {
-                        controller.velocity = new Vector2(controller.velocity.x - dashSpeed, 0f);
-                        dashState = DashState.Dashing;
-                    }
+
+                    dashState = DashState.Dashing;
                 }
                 break;
             case DashState.Dashing:
                 doingDash = true;
                 dashTimer += Time.deltaTime * 10;
+
+                if (controller.velocity.magnitude <= maxDashSpeed)
+                {
+                    if (direction >= 0)
+                    {
+                        controller.AddForce(new Vector2(dashSpeed, 0f));
+                    }
+                    else if (direction < 0)
+                    {
+                        controller.AddForce(new Vector2(-dashSpeed, 0f));
+                    }
+                }
+
                 if (dashTimer >= maxDash)
                 {
                     dashTimer = maxDash;
