@@ -537,7 +537,7 @@ PrefabInstance:
     - target: {fileID: 2838507401687604682, guid: 78ee44bcf236972469a39c3e9f3fa94c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.22
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 2838507401687604682, guid: 78ee44bcf236972469a39c3e9f3fa94c,
         type: 3}
@@ -948,3 +948,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ed287195fdc500478a7202f7667a0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorStatus: 0
+  keyOBJ: {fileID: 0}
