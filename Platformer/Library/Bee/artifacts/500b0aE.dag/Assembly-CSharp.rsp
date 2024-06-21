@@ -375,6 +375,8 @@
 "Assets/Scripts/Scene Managers/SM6to5.cs"
 "Assets/Scripts/Scene Managers/SM6to7.cs"
 "Assets/Scripts/Scene Managers/SM7to6.cs"
+"Assets/Scripts/Scene Managers/SM7to8.cs"
+"Assets/Scripts/Scene Managers/SM8to7.cs"
 "Assets/Scripts/Scene Managers/SMOutto1.cs"
 "Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/ShowText.cs"

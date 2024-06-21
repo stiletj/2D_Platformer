@@ -63,7 +63,7 @@ public class PlayerMove : MonoBehaviour
             accelFrame = !accelFrame;
         }
 
-        if (Input.GetButtonDown("Vertical") && isGrounded == true)
+        if (Input.GetButtonDown("Vertical") && isGrounded == true && jump > 0)
         {
             Vector2 Jump = new Vector2(0f, jump * jumpSpeed);
 
