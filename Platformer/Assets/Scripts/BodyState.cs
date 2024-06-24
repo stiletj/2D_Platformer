@@ -3,17 +3,15 @@
 public class BodyState : MonoBehaviour
 {
     public int currentBody = 0;
-    GameObject player;
     PlayerMove playerMove;
     Dashing dashing;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
-        playerMove = player.GetComponent<PlayerMove>();
+        playerMove = gameObject.GetComponent<PlayerMove>();
 
-        dashing = player.GetComponent<Dashing>();
+        dashing = gameObject.GetComponent<Dashing>();
 
         SelectBody();
     }

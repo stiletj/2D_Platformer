@@ -7,7 +7,6 @@ public class Dashing : MonoBehaviour
     public DashState dashState;
     public float dashTimer;
     public float maxDash = 2f;
-    public GameObject player;
     public float dashSpeed = 2f;
     public float maxDashSpeed = 5f;
     //public float standingDashSpeed = 5f;

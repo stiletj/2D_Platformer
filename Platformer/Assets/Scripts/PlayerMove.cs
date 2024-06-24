@@ -19,12 +19,19 @@ public class PlayerMove : MonoBehaviour
     public double time = 0.2;
 
     public Rigidbody2D controller;
+    public static Vector2 startVelocity = new Vector2(0, 0);
+
     private GameObject spawnPoint;
     private Dashing dashing;
 
+    
     bool accelFrame = true;
 
-    
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,11 +41,15 @@ public class PlayerMove : MonoBehaviour
 
         controller = GetComponent<Rigidbody2D>();
         dashing = player.GetComponent<Dashing>();
+
+        controller.velocity = startVelocity;
     }
 
     // Update is called once per frame
     void Update()
     {
+        startVelocity = new Vector2(0, 0);
+
         if (dashing.doingDash)
         {
             return;
