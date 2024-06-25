@@ -201,6 +201,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6345847217629855560, guid: bffada11c536d6e42a861d9b7e8db9bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345847218789074660, guid: bffada11c536d6e42a861d9b7e8db9bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -769.1902
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bffada11c536d6e42a861d9b7e8db9bd, type: 3}
 --- !u!1 &511780042
@@ -1098,6 +1108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Stage 9
+  sceneBuildIndex: 9
   spawnPoint: SpawnPoint27
 --- !u!61 &1591509844
 BoxCollider2D:
@@ -1151,6 +1162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spawnPoint
       value: SpawnPoint22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960208374157770509, guid: 3f47634bdccd6a9489864247760c54c1,
+        type: 3}
+      propertyPath: sceneBuildIndex
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4960208374157770510, guid: 3f47634bdccd6a9489864247760c54c1,
         type: 3}

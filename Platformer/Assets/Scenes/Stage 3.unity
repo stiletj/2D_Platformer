@@ -160,6 +160,11 @@ PrefabInstance:
       propertyPath: spawnPoint
       value: SpawnPoint11
       objectReference: {fileID: 0}
+    - target: {fileID: 4960208374157770509, guid: 3f47634bdccd6a9489864247760c54c1,
+        type: 3}
+      propertyPath: sceneBuildIndex
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4960208374157770510, guid: 3f47634bdccd6a9489864247760c54c1,
         type: 3}
       propertyPath: m_Name
@@ -295,6 +300,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6345847217629855560, guid: bffada11c536d6e42a861d9b7e8db9bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345847218789074660, guid: bffada11c536d6e42a861d9b7e8db9bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -769.1902
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bffada11c536d6e42a861d9b7e8db9bd, type: 3}
 --- !u!1001 &1315327960
@@ -333,6 +348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spawnPoint
       value: SpawnPoint5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960208374157770509, guid: 3f47634bdccd6a9489864247760c54c1,
+        type: 3}
+      propertyPath: sceneBuildIndex
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4960208374157770510, guid: 3f47634bdccd6a9489864247760c54c1,
         type: 3}
@@ -433,6 +453,11 @@ PrefabInstance:
       propertyPath: spawnPoint
       value: SpawnPoint12
       objectReference: {fileID: 0}
+    - target: {fileID: 4960208374157770509, guid: 3f47634bdccd6a9489864247760c54c1,
+        type: 3}
+      propertyPath: sceneBuildIndex
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4960208374157770510, guid: 3f47634bdccd6a9489864247760c54c1,
         type: 3}
       propertyPath: m_Name
@@ -531,6 +556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spawnPoint
       value: SpawnPoint6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960208374157770509, guid: 3f47634bdccd6a9489864247760c54c1,
+        type: 3}
+      propertyPath: sceneBuildIndex
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4960208374157770510, guid: 3f47634bdccd6a9489864247760c54c1,
         type: 3}

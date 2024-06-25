@@ -7,7 +7,6 @@ public class PlayerMove : MonoBehaviour
     public int moveSpeed = 5;
     public int jumpSpeed = 100;
     public int maxSpeed = 10;
-    public GameObject player;
     public bool isGrounded = false;
     public bool multiCollide;
 
@@ -35,12 +34,8 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //spawnPoint = GameObject.Find("Spawn Point");
-
-       // player.transform.position = spawnPoint.transform.position;
-
         controller = GetComponent<Rigidbody2D>();
-        dashing = player.GetComponent<Dashing>();
+        dashing = gameObject.GetComponent<Dashing>();
 
         controller.velocity = startVelocity;
     }
@@ -60,7 +55,7 @@ public class PlayerMove : MonoBehaviour
         forwardBack = Input.GetAxisRaw("Horizontal");
         jump = Input.GetAxisRaw("Vertical");
 
-        Vector3 scale = player.transform.localScale;
+        Vector3 scale = gameObject.transform.localScale;
 
         if (Input.GetButton("Horizontal"))
         {

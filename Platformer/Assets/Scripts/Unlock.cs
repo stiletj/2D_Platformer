@@ -8,15 +8,13 @@ public class Unlock : MonoBehaviour
 
     public GameObject keyOBJ;
 
-    GameObject player;
     PlayerMove playerMove;
     Key keyScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
-        playerMove = player.GetComponent<PlayerMove>();
+        playerMove = ManageScenes.player.GetComponent<PlayerMove>();
         keyScript = keyOBJ.GetComponent<Key>();
     }
 
@@ -34,7 +32,7 @@ public class Unlock : MonoBehaviour
             else
             {
                 body.gameObject.SetActive(false);
-                Debug.Log("off");
+                //Debug.Log("off");
             }
             i++;
         }
@@ -42,7 +40,7 @@ public class Unlock : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (keyScript.hasKey == true)
+        if (keyScript.hasKey)
         {
             doorStatus = 1;
         }

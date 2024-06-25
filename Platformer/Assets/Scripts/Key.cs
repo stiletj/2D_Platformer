@@ -17,7 +17,7 @@ public class Key : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("hasKey = " + hasKey);
+        //Debug.Log("hasKey = " + hasKey);
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

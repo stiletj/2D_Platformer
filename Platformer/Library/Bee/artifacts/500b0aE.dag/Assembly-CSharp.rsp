@@ -358,6 +358,7 @@
 "Assets/Scripts/GateUnlock.cs"
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/Scene Managers/ManageGame.cs"
 "Assets/Scripts/Scene Managers/ManageScenes.cs"
 "Assets/Scripts/Scene Managers/SpawnPoint.cs"
 "Assets/Scripts/SceneChanger.cs"

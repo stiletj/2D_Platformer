@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnPoint : MonoBehaviour
 {
     public string scene;
+    public int sceneBuildIndex;
     public string spawnPoint;
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class SpawnPoint : MonoBehaviour
 
         ManageScenes.lastScene = ManageScenes.currentScene;
         ManageScenes.currentScene = scene;
+        ManageScenes.currentSceneInt = sceneBuildIndex;
         ManageScenes.changeScene = true;
         ManageScenes.sp = spawnPoint;
     }
