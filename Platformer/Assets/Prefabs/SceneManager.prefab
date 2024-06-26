@@ -117,6 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 6906968350595217645}
+  backgroundPositions: {fileID: 0}
   srcImages:
   - {fileID: 21300000, guid: bb6b537f4abceb54fb1fdd6fe17b25ce, type: 3}
   - {fileID: 21300000, guid: c35c9b2d7b6e66240815c5e3b27f6bf7, type: 3}
@@ -128,6 +129,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9e19a725aff4af1499f23fd58503ae3c, type: 3}
   - {fileID: 21300000, guid: 1ec2fc385ea640948aa1f59785054478, type: 3}
   - {fileID: 21300000, guid: 12fc4b649cacd2c4dbe1ba08daac9761, type: 3}
+  positions:
+  - {x: 2, y: 12, z: 0}
+  - {x: 2, y: 73, z: 0}
 --- !u!1 &6906968349900761522
 GameObject:
   m_ObjectHideFlags: 0

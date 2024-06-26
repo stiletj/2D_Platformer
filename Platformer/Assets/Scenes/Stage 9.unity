@@ -196,6 +196,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6345847217629855560, guid: bffada11c536d6e42a861d9b7e8db9bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345847218789074660, guid: bffada11c536d6e42a861d9b7e8db9bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -769.1902
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bffada11c536d6e42a861d9b7e8db9bd, type: 3}
 --- !u!1 &967149429
@@ -270,6 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Stage 8
+  sceneBuildIndex: 0
   spawnPoint: SpawnPoint24
 --- !u!1 &2120156841
 GameObject:

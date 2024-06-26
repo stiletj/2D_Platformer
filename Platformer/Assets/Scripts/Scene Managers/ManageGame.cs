@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class ManageGame : MonoBehaviour
 {
     public Image backgroundImage;
+    public RectTransform backgroundPositions;
 
     public Sprite[] srcImages;
+    public Vector3[] positions;
 
     int current = 0;
 
@@ -27,6 +29,15 @@ public class ManageGame : MonoBehaviour
     {
         //Debug.Log(current);
         backgroundImage.sprite = srcImages[current];
+
+        if (current < srcImages.Length)
+        {
+            backgroundPositions.anchoredPosition = positions[current];
+        }
+        else
+        {
+            backgroundPositions.anchoredPosition = Vector3.zero;
+        }
     }
 
     public int ChangeBackground(int newScene)
