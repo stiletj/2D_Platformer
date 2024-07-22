@@ -27,10 +27,13 @@ public class ManageGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log("Scene: " + current + ": pos: " + backgroundPositions.anchoredPosition.x + ", " + backgroundPositions.anchoredPosition.y);
+
         //Debug.Log(current);
+        //Debug.Log(positions.Length);
         backgroundImage.sprite = srcImages[current];
 
-        if (current < srcImages.Length)
+        if (current < positions.Length)
         {
             backgroundPositions.anchoredPosition = positions[current];
         }

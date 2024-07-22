@@ -41,6 +41,8 @@ public class ManageScenes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (SceneManager.GetActiveScene().name == currentScene && changeScene)
         {
             FirstSceneFrame();
@@ -63,6 +65,14 @@ public class ManageScenes : MonoBehaviour
         Debug.Log("FirstSceneFrame");
 
         changeScene = false;
+
+        if (sp == "SpawnPoint15" || sp == "SpawnPoint14")
+        {
+            currentVel = -1 * currentVel;
+
+            Debug.Log(sp);
+            Debug.Log(currentVel.x + ", " + currentVel.y);
+        }
 
         player.transform.position = GameObject.Find(sp).transform.position;
         PlayerMove.startVelocity = currentVel;
